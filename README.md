@@ -17,7 +17,7 @@ A CNN-based Driver Drowsiness Detection System.
 ```powershell
 git clone <repository-url>
 cd drowsyalert
-powershell -c "irm https://astral.sh/uv/install.ps1 | more
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 ```
 
 ### 2. Install dependencies
