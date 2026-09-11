@@ -6,7 +6,7 @@ A CNN-based Driver Drowsiness Detection System.
 
 ## Requirements
 
-- Python >= 3.12
+- Python >= 3.14
 - uv
 - NVIDIA GPU + compatible driver (recommended)
 
@@ -29,7 +29,7 @@ uv sync
 ### 3. run the application
 
 ```powershell
-uv run python main.py
+uv run drowsyalert
 ```
 
 # Folder Structure
