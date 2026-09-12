@@ -290,7 +290,7 @@ sdist = { url = "https://files.pythonhosted.org/packages/25/1e/17570a07f9db19014
 [[package]]
 name = "drowsyalert"
 version = "0.1.0"
-source = { virtual = "." }
+source = { editable = "." }
 dependencies = [
     { name = "dlib" },
     { name = "matplotlib" },

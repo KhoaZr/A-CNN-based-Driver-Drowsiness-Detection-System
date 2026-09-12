@@ -32,6 +32,7 @@ dev = [
 
 [tool.uv]
 default-groups = ["dev"]
+package = true
 
 [[tool.uv.index]]
 name = "pytorch-cu130"
@@ -48,6 +49,9 @@ torchvision = [
 torchaudio = [
     { index = "pytorch-cu130" }
 ]
+
+[project.scripts]
+drowsyalert = "drowsyalert.main:main"
 
 [tool.ruff]
 line-length = 100
